@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.5.0</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>com.chayugadesigns</groupId>
+	<artifactId>csvFile</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>csvFile</name>
+	<description> 13,702 views•Aug 6, 2018  139  2  SHARE  SAVE   Play Java 4.14K subscribers Description and coding regarding the setting of data in the database by reading data from a CSV file using spring boot.  #JavaReadDataFromCsv #CsvDataReadInJava #PlayJava   41:31 NOW PLAYING Spring Batch in Spring Boot | CSV to Database | Tech Primers Tech Primers 141K views 2 years ago   3:35:11 NOW PLAYING Java Full Course | Java Tutorial for Beginners [2021] [NEW] Amigoscode 446K views 8 months ago   47:14 NOW PLAYING Import and Read the CSV File Data into MySQL Database using Spring Boot Application PixelTrice 2.4K views 8 months ago   1:11:29 NOW PLAYING Battles Of The Lord | Pst T Mwangi Life Church Limuru 18K views 2 weeks ago   13:47 NOW PLAYING Java: Read a CSV File into an Array Alex Lee 61K views 11 months ago   6:05 NOW PLAYING YY Comedian--FORM 4&apos;s During Dorm Meetings</description>
+	<properties>
+		<java.version>11</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
